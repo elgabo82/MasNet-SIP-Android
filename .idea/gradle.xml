@@ -11,7 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/SIPSample" />
+            <option value="$PROJECT_DIR$/MasNet_SIP" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

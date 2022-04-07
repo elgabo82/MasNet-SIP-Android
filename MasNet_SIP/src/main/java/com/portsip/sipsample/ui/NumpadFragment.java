@@ -120,16 +120,20 @@ public class NumpadFragment extends BaseFragment implements AdapterView.OnItemSe
         switch (current.state) {
             case CLOSED:
             case FAILED:
-                showTips(current.lineName + ": Idle");
+                //showTips(current.lineName + ": Idle");
+                showTips(current.lineName + ": Ausente");
                 break;
             case CONNECTED:
-                showTips(current.lineName + ": CONNECTED");
+                //showTips(current.lineName + ": CONNECTED");
+                showTips(current.lineName + ": CONECTADO");
                 break;
             case INCOMING:
-                showTips(current.lineName + ": INCOMING");
+                //showTips(current.lineName + ": INCOMING");
+                showTips(current.lineName + ": ENTRANTE");
                 break;
             case TRYING:
-                showTips(current.lineName + ": TRYING");
+                //showTips(current.lineName + ": TRYING");
+                showTips(current.lineName + ": REINTENTANDO");
                 break;
         }
         Button mute = getView().findViewById(R.id.mute);

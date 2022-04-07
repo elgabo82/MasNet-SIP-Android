@@ -104,8 +104,10 @@ public class LoginFragment extends BaseFragment implements AdapterView.OnItemSel
     private void LoadUserInfo() {
 
         etUsername.setText(mPreferences.getString(PortSipService.USER_NAME, null));
-        etPassword.setText(mPreferences.getString(PortSipService.USER_PWD, null));
-        etSipServer.setText(mPreferences.getString(PortSipService.SVR_HOST, null));
+        //etPassword.setText(mPreferences.getString(PortSipService.USER_PWD, null));
+        etPassword.setText(mPreferences.getString(PortSipService.USER_PWD, "MasNet2019"));
+        //etSipServer.setText(mPreferences.getString(PortSipService.SVR_HOST, null));
+        etSipServer.setText(mPreferences.getString(PortSipService.SVR_HOST, "voip.masnet.ec"));
         etSipServerPort.setText(mPreferences.getString(PortSipService.SVR_PORT, "5060"));
 
         etDisplayname.setText(mPreferences.getString(PortSipService.USER_DISPALYNAME, null));
@@ -123,7 +125,9 @@ public class LoginFragment extends BaseFragment implements AdapterView.OnItemSel
         editor.putString(PortSipService.USER_NAME, etUsername.getText().toString());
         editor.putString(PortSipService.USER_PWD, etPassword.getText().toString());
         editor.putString(PortSipService.SVR_HOST, etSipServer.getText().toString());
+        //editor.putString(PortSipService.SVR_HOST, "voip.masnet.ec");
         editor.putString(PortSipService.SVR_PORT, etSipServerPort.getText().toString());
+        //editor.putString(PortSipService.SVR_PORT, "5060");
 
         editor.putString(PortSipService.USER_DISPALYNAME, etDisplayname.getText().toString());
         editor.putString(PortSipService.USER_DOMAIN, etUserdomain.getText().toString());

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PortSipSample</string>
+    <string name="app_name">MásNet_SIP</string>
     <!-- Dangerous Permission -->
     <!-- Title of a category of application permissioncds, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgrouplab_microphone">Microphone</string>
+    <string name="permgrouplab_microphone">Micrófono</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permgroupdesc_microphone">record audio</string>
+    <string name="permgroupdesc_microphone">grabar audio</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_recordAudio">record audio</string>
+    <string name="permlab_recordAudio">grabar audio</string>
     <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permdesc_recordAudio">Allows the app to record audio with the
       microphone.  This permission allows the app to record audio at any time
@@ -30,28 +30,28 @@ without your confirmation.</string>
 
 
 
-    <string name="str_login">Login</string>
-    <string name="str_numpad">NumPad</string>
+    <string name="str_login">Sesión</string>
+    <string name="str_numpad">Teclado</string>
     <string name="str_video">Video</string>
-    <string name="str_message">Message</string>
-    <string name="str_setting">Setting</string>
+    <string name="str_message">Mensajes</string>
+    <string name="str_setting">Config.</string>
 
     <!-- login fragment -->
-    <string name="str_optional">Optional</string>
-    <string name="str_username">UserName</string>
-    <string name="str_displayname">DisplayName</string>
+    <string name="str_optional">Opcional</string>
+    <string name="str_username">Usuario</string>
+    <string name="str_displayname">Nombre a mostrar</string>
     <string name="str_authName">AuthName</string>
-    <string name="str_password">Password</string>
+    <string name="str_password">Clave</string>
     <string name="str_userDomain">UserDomain</string>
-    <string name="str_requried">Required</string>
-    <string name="str_transport">Transport</string>
+    <string name="str_requried">Requerido</string>
+    <string name="str_transport">Protocolo</string>
     <string name="str_srtp">SRTP</string>
 
-    <string name="str_SIPServer">SIPServer</string>
-    <string name="str_SIPServerPort">SIPServerPort</string>
-    <string name="str_StunServer">StunServer</string>
-    <string name="str_StunServerPort">StunServerPort</string>
-    <string name="str_localSIPPort">LocalSIPPort</string>
+    <string name="str_SIPServer">Servidor SIP</string>
+    <string name="str_SIPServerPort">Puerto</string>
+    <string name="str_StunServer">Servidor STUN</string>
+    <string name="str_StunServerPort">Puerto</string>
+    <string name="str_localSIPPort">Puerto SIP Local</string>
 
     <string-array name="transports">
         <item >UDP</item>
@@ -62,14 +62,14 @@ without your confirmation.</string>
     </string-array>
 
   <string-array name="lines">
-    <item >Line-0</item>
-    <item >Line-1</item>
-    <item >Line-2</item>
-    <item >Line-3</item>
-    <item >Line-4</item>
-    <item >Line-5</item>
-    <item >Line-6</item>
-    <item >Line-7</item>
+    <item >Línea-0</item>
+    <item >Línea-1</item>
+    <item >Línea-2</item>
+    <item >Línea-3</item>
+    <item >Línea-4</item>
+    <item >Línea-5</item>
+    <item >Línea-6</item>
+    <item >Línea-7</item>
   </string-array>
   
   <string-array name="srtp">
@@ -126,15 +126,22 @@ without your confirmation.</string>
   
   <string name="str_sendto">Send to:</string>
 
-  <string name="contact">Contact</string>
+  <!--<string name="contact">Contact</string>
   <string name="message">Message</string>
-  <string name="sipsample">SipSample</string>
+  <string name="sipsample">SipSample</string>-->
+    <string name="contact">Contacto(s)</string>
+    <string name="message">Mensaje(s)</string>
+    <string name="sipsample">MásNet - Llamadas</string>
 
-  <string name="online">Online</string>
-  <string name="offline">Offline</string>
+  <!--<string name="online">Online</string>
+  <string name="offline">Offline</string>-->
+    <string name="online">En línea</string>
+    <string name="offline">Fuera de línea</string>
 
-  <string name="website">website:http://www.portsip.com</string>
-  <string name="email">email:sales@portsip.com</string>
+  <!--<string name="website">website:http://www.portsip.com</string>
+  <string name="email">email:sales@portsip.com</string>-->
+    <string name="website">https://www.masnet.ec</string>
+    <string name="email">soporte@grupofmo.com</string>
 
 
 

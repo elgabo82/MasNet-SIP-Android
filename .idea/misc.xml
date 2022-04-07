@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="MasNet_SIP/src/main/res/xml/setting.xml" value="0.1" />
         <entry key="SIPSample/src/main/res/drawable/tabbuttonbg.xml" value="0.11458333333333333" />
         <entry key="SIPSample/src/main/res/drawable/textcolor.xml" value="0.11458333333333333" />
         <entry key="SIPSample/src/main/res/layout/contactview.xml" value="0.1" />
@@ -11,5 +12,5 @@
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>
