@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="SIPSample/src/main/res/drawable/tabbuttonbg.xml" value="0.11458333333333333" />
+        <entry key="SIPSample/src/main/res/drawable/textcolor.xml" value="0.11458333333333333" />
+        <entry key="SIPSample/src/main/res/layout/contactview.xml" value="0.1" />
+        <entry key="SIPSample/src/main/res/layout/login.xml" value="0.67" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
